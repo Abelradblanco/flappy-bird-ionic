@@ -15,6 +15,9 @@ export class HomePage implements OnInit{
   container_height!: number;
   container_width!: number;
 
+  gameStarted: boolean = false;
+  gameOver: boolean = false;
+
   constructor(
     private platform: Platform
   ) {}
